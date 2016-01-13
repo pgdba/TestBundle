@@ -1,0 +1,30 @@
+{
+  "name" : "pg/testbundle",
+  "description" : "A test bundle",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "test",
+    "email" : "test@company.com"
+  }],
+  "keywords" : [
+    "test bundle"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Pg\\TestBundle" : ""
+    }
+  },
+  "target-dir" : "Pg/TestBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "0.1-dev"
+    }
+  }
+}
