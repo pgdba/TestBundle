@@ -14,7 +14,7 @@ class DupaService
 
     public function doDupa()
     {
-        var_dump($_SERVER);
+        var_dump($_SESSION);
         exit;
     }
 }
